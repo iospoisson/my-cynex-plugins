@@ -1,0 +1,17 @@
+{
+  "name": "CYNEX REPO",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "testplugin",
+      "name": "TestPlugin",
+      "description": "Simple synchronous test plugin",
+      "version": "1.0.0",
+      "author": "Me",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/testplugin.js",
+      "enabled": true,
+      "logo": "https://example.com/logo.png"
+    }
+  ]
+}
